@@ -14,7 +14,7 @@ PhotoFolio is a React-based project that allows users to create new albums and s
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/PhotoFolio.git
+   git clone https://github.com/harkiratsingh97/PhotoFolio.git
 
 2. Navigate to the project directory:
 
