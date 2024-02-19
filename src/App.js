@@ -58,7 +58,8 @@ function App() {
 	};
 
 	return (
-		<div className="App">
+		<div className="App container-fluid">
+
 			<Navbar />
 			{showCreateAlbum && <AlbumForm />}
 

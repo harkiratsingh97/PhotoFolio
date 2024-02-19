@@ -24,26 +24,28 @@ export default function ImageForm({ album }) {
 			console.error("Album document does not exist:", album.id);
 		}
 		imageNameInput.current.value = "";
+		imageUrlInput.current.value = "";
+
 	}
 	return (
 		<>
-			<div className="createImageFormDiv row justify-content-between">
+			<div className="createImageFormDiv row justify-content-between ">
 				<h3>Add an Image</h3>
 				<input
-					className="col-lg-5"
+					className="col-lg-4 col-md-3 col-sm-3 "
 					type="text"
 					ref={imageNameInput}
 					placeholder="Title"
 				></input>
 				<input
-					className="col-lg-5"
+					className="col-lg-4 col-md-3 col-sm-3 "
 					type="text"
 					ref={imageUrlInput}
 					placeholder="Image URL"
 				></input>
-				<button className="col-lg-2"> Clear</button>
+				<button className="butn"> Clear</button>
 				<button
-					className="col-lg-2"
+					className="butn"
 					onClick={() =>
 						createImageFireStore({
 							title: imageNameInput.current.value,

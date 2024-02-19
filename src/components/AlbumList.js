@@ -10,15 +10,15 @@ export default function AlbumList({
 		<>
 			<div className="row justify-content-center">
 				<div className="albums-titlebar row col-8 justify-content-between">
-					<div className="col-4">Your Albums</div>
+					<div className="album-name-images col-6">Your Albums</div>
 					<button
-						className="col-2"
+						className="butn"
 						onClick={() => setShowCreateAlbum(!showCreateAlbum)}
 					>
 						{showCreateAlbum ? "Cancel" : "Add Album"}
 					</button>
 				</div>
-				<div className="albumsContainer row col-8">
+				<div className="albumsContainer row justify-content-between col-8">
 					{albums.map((album) => (
 						<Album key={album.id} openAlbum={openAlbum} album={album}></Album>
 					))}

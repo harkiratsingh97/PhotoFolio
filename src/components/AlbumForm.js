@@ -17,8 +17,8 @@ export default function AlbumForm() {
 	return (
 		<>
 			<div className="row justify-content-center ">
-				<div className="createAlbumFormDiv col-lg-7 col-md-10 col-xl-6 col-sm-8 ">
-					<div className="row justify-content-between">
+				<div className=" col-lg-7 col-md-10 col-xl-6 col-sm-8 ">
+					<div className="createAlbumFormDiv row justify-content-between">
 						<h3 className="col-10">Create an Album</h3>
 						<input
 							className="col-6"
@@ -26,9 +26,9 @@ export default function AlbumForm() {
 							ref={albumNameInput}
 							placeholder="Album Name"
 						></input>
-						<button className="col-2"> Clear</button>
+						<button className="butn"> Clear</button>
 						<button
-							className="col-2"
+							className="butn"
 							onClick={() => createAlbumFireStore(albumNameInput.current.value)}
 						>
 							Create
