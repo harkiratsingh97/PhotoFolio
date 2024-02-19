@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: "AIzaSyC49I3H6Y7iq3BW8cc2WP_4OWAuN3MwIJ0",
-	authDomain: "blogging-app-cn-260dc.firebaseapp.com",
-	projectId: "blogging-app-cn-260dc",
-	storageBucket: "blogging-app-cn-260dc.appspot.com",
-	messagingSenderId: "755481221615",
-	appId: "1:755481221615:web:25b5304de2e3f1cc127e1a",
+	apiKey: "AIzaSyByQTl02B6zXZMiKU5hyUj8vrheN3cvAPc",
+	authDomain: "photofolio-cn-b94c8.firebaseapp.com",
+	projectId: "photofolio-cn-b94c8",
+	storageBucket: "photofolio-cn-b94c8.appspot.com",
+	messagingSenderId: "965152145844",
+	appId: "1:965152145844:web:25499c366d062362cef2e1",
 };
 
 // Initialize Firebase

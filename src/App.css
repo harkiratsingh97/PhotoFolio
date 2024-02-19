@@ -1,0 +1,90 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.navbar {
+	height: 70px;
+	background-color: #a0a0f9;
+	width: 100%;
+}
+.photofolio-logo-div {
+	width: 20px;
+	height: 20px;
+	background-color: antiquewhite;
+}
+
+.album-view {
+	/* display: flex;
+  flex-direction: column;
+   */
+}
+
+.createAlbumFormDiv,
+.createImageFormDiv {
+	height: 140px;
+	margin: 20px 0px;
+	background-color: rgba(211, 211, 211, 0.603);
+	border-radius: 18px;
+}
+
+.albums-titlebar {
+	/* display: flex;
+  width: 70%;
+  align-self: center;
+  justify-content: space-between;
+  
+   */
+	height: 100px;
+	align-items: center;
+}
+
+.album-card {
+	background-color: lightgray;
+	height: 200px;
+	min-width: 180px;
+	margin: 7px;
+	width: 23%;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.album-card:hover {
+	background-color: rgba(32, 32, 230, 0.74);
+	color: white;
+}
+
+.album-img {
+	height: 89%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px 5px 0px 0px;
+	display: flex;
+	justify-content: center;
+
+	background-color: aliceblue;
+}
+.album-img img {
+	align-self: center;
+	width: 75px;
+	height: 75px;
+}
+.album-name {
+	text-align: center;
+	line-height: 30px;
+}
+
+.image-div {
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px 5px 0px 0px;
+	display: flex;
+	/* width: 40%; */
+	margin: 2px;
+	justify-content: center;
+
+	background-color: rgb(63, 88, 109);
+}
